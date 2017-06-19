@@ -16,6 +16,12 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase: {
+    apiKey: "AIzaSyDmHtRT5i0ZSK01gO3PsDNW_4SBrdfiyTo",
+    authDomain: "agribiz-b7210.firebaseapp.com",
+    databaseURL: "https://agribiz-b7210.firebaseio.com",
+    storageBucket: "agribiz-b7210.appspot.com",
+  }
 
     APP: {
       // Here you can pass flags/options to your application instance
