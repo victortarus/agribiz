@@ -1,5 +1,5 @@
   <!-- where the plant name should go -->
-  <h1>Alias: <!--plant name --> </h1>
+  <h1>Alias: {{plant.alias}} </h1>
 
 <!-- Carousel for the top part of plant details  -->
 
@@ -15,15 +15,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="" alt="" style="width:100%;">
+        <img src= {{plant.image}} alt= {{plant.alias}} image style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="" alt="" style="width:100%;">
+        <img src={{plant.image2}} alt= {{plant.alias}} image style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="" alt="" style="width:100%;">
+        <img src={{plant.image3}} alt= {{plant.alias}} image style="width:100%;">
       </div>
     </div>
 
@@ -44,12 +44,21 @@
 <div class="col-md-6">
 <h2 id="how">How to plant:</h2>
   <h3 id="requirements">Requirements</h3>
+  <ul>
+    <li>Type of soil: {{plant.soil}}</li>
+    <li>Type of climate: {{plant.climate}}</li>
+
+  </ul>
 </div>
 
 <div class="col-md-6">
   <h4>Extra tips</h4>
   <p>If your practising largescale, we recommend you do the following as they will come to
   help in the long run:</p>
+  <ul>
+    <li>Use this fertilizers {{plant.fertilizers}}</li>
+    <li>And keep watch of the following pests: {{plant.pests}}</li>
+  </ul>
 </div>
 </div>
 
@@ -57,8 +66,15 @@
 <!-- available markets section -->
 <div class="market">
   <h2>Available markets:</h2>
+  <p>Here are the following markets for {{plant.alias}}</p>
   <ul id="soko">
-
+    <li>{{plant.markets}}</li>
   </ul>
 
 </div>
+
+<ul>
+  {{#each model as |plant|}}
+    {{plant-tile plant=plant}}
+    {{/each}}
+</ul>
