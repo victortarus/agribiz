@@ -1,6 +1,7 @@
 {
   "plants": [{
     "alias": "",
+    "image": "",
     "soil": "",
     "climate": "",
     "fertilizers": "",
@@ -8,6 +9,7 @@
     "markets": ""
   }, {
     "alias": "",
+    "image": "",
     "soil": "",
     "climate": "",
     "fertilizers": "",
@@ -15,6 +17,7 @@
     "markets": ""
   }, {
     "alias": "",
+    "image": "",
     "soil": "",
     "climate": "",
     "fertilizers": "",
@@ -22,6 +25,7 @@
     "markets": ""
   }, {
     "alias": "",
+    "image": "",
     "soil": "",
     "climate": "",
     "fertilizers": "",
