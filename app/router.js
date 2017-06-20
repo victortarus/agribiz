@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('about');
   this.route('subscribe');
   this.route('seasons');
+  this.route('plant', {path: '/plant/:plant_id'});
 });
 
 export default Router;
