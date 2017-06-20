@@ -17,10 +17,14 @@ module.exports = function(environment) {
       }
     },
     firebase: {
+
       apiKey: "AIzaSyBsW1blQjBa5Ph0HfOc7Fm7U2Evcge65Xo",
-        authDomain: "agribiz101-25500.firebaseapp.com",
-        databaseURL: "https://agribiz101-25500.firebaseio.com",
-    storageBucket: "agribiz101-25500.appspot.com",
+      authDomain: "agribiz101-25500.firebaseapp.com",
+      databaseURL: "https://agribiz101-25500.firebaseio.com",
+      projectId: "agribiz101-25500",
+      storageBucket: "agribiz101-25500.appspot.com",
+      messagingSenderId: "101323727343"
+    
   },
 
     APP: {
