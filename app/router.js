@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('subscribe');
   this.route('seasons');
   this.route('plant', {path: '/plant/:plant_id'});
+  this.route('admin-tile');
 });
 
 export default Router;
