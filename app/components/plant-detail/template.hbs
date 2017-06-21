@@ -15,15 +15,14 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src= {{plant.image}} alt= {{plant.alias}} image style="width:100%;">
+        <img src= "{{plant.image}}" alt= {{plant.alias}} image style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="{{plant.image2}}" alt= {{plant.alias}} image style="width:100%;">
       </div>
 
       <div class="item">
-        <img src={{plant.image2}} alt= {{plant.alias}} image style="width:100%;">
-      </div>
-
-      <div class="item">
-        <img src={{plant.image3}} alt= {{plant.alias}} image style="width:100%;">
+        <img src="{{plant.image3}}" alt= {{plant.alias}} image style="width:100%;">
       </div>
     </div>
 
@@ -82,4 +81,7 @@
     {{plant-tile plant=plant}}
     {{/each}}
 </ul>
-<button class="btn btn-danger" {{action 'delete' plant}}>Delete</button>
+
+{{#if adminButtons}}
+  <button class="btn btn-danger">Delete</button>
+{{/if}}
