@@ -1,0 +1,18 @@
+{{outlet}}
+<ul>
+{{#each model as |plant|}}
+<div class = 'thumb'>
+<div class="col-xs-18 col-sm-6 col-md-3">
+   <div class="thumbnail">
+     <img src="{{plant.imageurl}}" alt="" style="height:100px;">
+       <div class="caption">
+         <h4>Also known as;<br> {{plant.othname}}</h4>
+         <p>{{plant.decription}}</p>
+         {{link-to "See More" 'details' plant.tfvname class= "btn btn-info type"}}
+     </div>
+   </div>
+ </div>
+ </div>
+
+{{/each}}
+</ul>
