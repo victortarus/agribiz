@@ -21,7 +21,6 @@ export default Ember.Component.extend({
          fertilizers: this.get('fertilizers'),
          pests: this.get('pests'),
          markets: this.get('markets'),
-
      };
      this.set('addNewPlant', false);
      this.sendAction('savePlant2', params)
