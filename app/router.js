@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('seasons');
   this.route('plant', {path: '/plant/:plant_id'});
   this.route('admin');
+  this.route('adminplant');
 });
 
 export default Router;
