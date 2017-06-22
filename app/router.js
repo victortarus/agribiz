@@ -7,6 +7,13 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('results', {path: 'results/:food'});
+  this.route('about');
+  this.route('admin');
+  this.route('signup');
+  this.route('weather', {path: 'weather/:location'});
+  this.route('details', {path: 'details/:food'} );
+  this.route('contact');
 });
 
 export default Router;
