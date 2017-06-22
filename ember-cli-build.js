@@ -6,11 +6,7 @@ module.exports = function(defaults) {
     'ember-bootstrap': {
       'bootstrapVersion': 3,
       'importBootstrapFont': true,
-<<<<<<< HEAD
-      'importBootstrapCSS': true
-=======
       'importBootstrapCSS': false
->>>>>>> 778a656db0fbc00ec5d3d899d9a79024307a69b8
     }
   });
 
