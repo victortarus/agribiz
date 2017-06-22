@@ -1,7 +1,7 @@
 <ul>
 {{#each plants as |plant|}}
 <li>
-  {{#link-to 'adminplant' plant.id}}{{plant.alias}} <br> <img src="{{plant.image}}" alt="{{plant.alias}}">{{/link-to}}
+  {{#link-to 'plant' plant.id}}{{plant.alias}} <br> <img src="{{plant.image}}" alt="{{plant.alias}}">{{/link-to}}
 </li>
 {{/each}}
 </ul>

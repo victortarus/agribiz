@@ -12,8 +12,8 @@ Router.map(function() {
   this.route('subscribe');
   this.route('seasons');
   this.route('plant', {path: '/plant/:plant_id'});
-  this.route('admin');
-  this.route('adminplant');
+  this.route('admin', {path:'/admin/:plant_id'});
+  this.route('admin1');
 });
 
 export default Router;
