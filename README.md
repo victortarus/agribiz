@@ -1,8 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # agribiz
 =======
 # agri
 >>>>>>> 778a656db0fbc00ec5d3d899d9a79024307a69b8
+=======
+# agri
+=======
+# agribiz
+>>>>>>> 5bf25a6036abc9797bd4dd3a2e8bfef1081a0e1e
+>>>>>>> e9efdf5678cf68a12dfe841224bae71b0c63b86d
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
@@ -20,10 +27,14 @@ You will need the following things properly installed on your computer.
 
 * `git clone <repository-url>` this repository
 <<<<<<< HEAD
+<<<<<<< HEAD
 * `cd agribiz`
 =======
 * `cd agri`
 >>>>>>> 778a656db0fbc00ec5d3d899d9a79024307a69b8
+=======
+* `cd agribiz`
+>>>>>>> e9efdf5678cf68a12dfe841224bae71b0c63b86d
 * `npm install`
 
 ## Running / Development

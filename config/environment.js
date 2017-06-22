@@ -16,6 +16,7 @@ module.exports = function(environment) {
         Date: false
       }
     },
+<<<<<<< HEAD
     firebase : {
     //   apiKey: "AIzaSyCbOIPjUhtRV9ejbpt2rRQ-GWvxvlPAhso",
     // authDomain: "agribiz101-ad354.firebaseapp.com",
@@ -30,6 +31,16 @@ module.exports = function(environment) {
     storageBucket: "agribiz101-25500.appspot.com",
     messagingSenderId: "101323727343"
 
+=======
+    firebase: {
+
+      apiKey: "AIzaSyBsW1blQjBa5Ph0HfOc7Fm7U2Evcge65Xo",
+      authDomain: "agribiz101-25500.firebaseapp.com",
+      databaseURL: "https://agribiz101-25500.firebaseio.com",
+      projectId: "agribiz101-25500",
+      storageBucket: "agribiz101-25500.appspot.com",
+      messagingSenderId: "101323727343"
+>>>>>>> e9efdf5678cf68a12dfe841224bae71b0c63b86d
   },
 
     APP: {
