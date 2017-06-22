@@ -1,2 +1,12 @@
 {{outlet}}
 {{search-form plantLookup="plantLookup"}}
+<div class="jumbotron">
+  <h1>AGRIBIZ 101</h1>
+  <button class="btn btn-success">=vv</button>
+</div>
+<h3>Welcome to agribiz 101, we'll help transform your produce to the best there is</h3>
+<ul>
+  {{#each model as |plant|}}
+    {{plant-tile plant=plant}}
+    {{/each}}
+</ul>

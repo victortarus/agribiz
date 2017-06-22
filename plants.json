@@ -1,0 +1,43 @@
+{
+  "plants": [{
+    "alias": "",
+    "image": "",
+    "image2": "",
+    "image3": "",
+    "soil": "",
+    "climate": "",
+    "fertilizers": "",
+    "pests": "",
+    "markets": ""
+  }, {
+    "alias": "",
+    "image": "",
+    "image2": "",
+    "image3": "",
+    "soil": "",
+    "climate": "",
+    "fertilizers": "",
+    "pests": "",
+    "markets": ""
+  }, {
+    "alias": "",
+    "image": "",
+    "image2": "",
+    "image3": "",
+    "soil": "",
+    "climate": "",
+    "fertilizers": "",
+    "pests": "",
+    "markets": ""
+  }, {
+    "alias": "",
+    "image": "",
+    "image2": "",
+    "image3": "",
+    "soil": "",
+    "climate": "",
+    "fertilizers": "",
+    "pests": "",
+    "markets": ""
+  }]
+}

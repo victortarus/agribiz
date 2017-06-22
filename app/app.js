@@ -5,7 +5,6 @@ import config from './config/environment';
 
 let App;
 
-
 App = Ember.Application.extend({
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,

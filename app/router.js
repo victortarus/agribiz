@@ -14,6 +14,11 @@ Router.map(function() {
   this.route('weather', {path: 'weather/:location'});
   this.route('details', {path: 'details/:food'} );
   this.route('contact');
+  this.route('subscribe');
+  this.route('seasons');
+  this.route('plant', {path: '/plant/:plant_id'});
+  this.route('admin', {path:'/admin/:plant_id'});
+  this.route('admin1');
 });
 
 export default Router;

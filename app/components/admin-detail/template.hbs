@@ -1,0 +1,71 @@
+<!-- where the plant name should go -->
+<h1>Alias: {{plant.alias}} </h1>
+
+<!-- Carousel for the top part of plant details  -->
+
+{{#carousel-container transitionInterval=400}}
+{{#carousel-body}}
+  {{#carousel-item}}
+      <img src= "{{plant.image}}" alt= {{plant.alias}} image style="width:40%;">
+  {{/carousel-item}}
+  {{#carousel-item}}
+      <img src= "{{plant.image2}}" alt= {{plant.alias}} image style="width:40%; align:center;">
+  {{/carousel-item}}
+  {{#carousel-item}}
+      <img src= "{{plant.image3}}" alt= {{plant.alias}} image style="width:40%;">
+  {{/carousel-item}}
+{{/carousel-body}}
+
+{{#carousel-arrow direction="left" tagName="button"}}
+  <span class="glyphicon glyphicon-chevron-left"></span>
+{{/carousel-arrow}}
+{{#carousel-arrow direction="right" tagName="button"}}
+  <span class="glyphicon glyphicon-chevron-right"></span>
+{{/carousel-arrow}}
+{{/carousel-container}}
+
+<!-- how to plant section -->
+<div class="row">
+<div class="col-md-6">
+<h2 id="how">How to plant:</h2>
+<h3 id="requirements">Requirements</h3>
+<ul>
+  <li>Type of soil: {{plant.soil}}</li>
+  <li>Type of climate: {{plant.climate}}</li>
+
+</ul>
+</div>
+
+<div class="col-md-6">
+<h4>Extra tips</h4>
+<p>If your practising largescale, we recommend you do the following as they will come to
+help in the long run:</p>
+<p>Use this fertilizers:</p>
+<ul>
+  <li>{{plant.fertilizers}}</li>
+</ul>
+  <p>And keep watch of the following pests: </p>
+<ul>
+  <li>{{plant.pests}}</li>
+</ul>
+</div>
+</div>
+
+<hr>
+<!-- available markets section -->
+<div class="market">
+<h2>Available markets:</h2>
+<p>Here are the following markets for {{plant.alias}}</p>
+<ul id="soko">
+  <li>{{plant.markets}}</li>
+</ul>
+
+</div>
+
+<ul>
+{{#each model as |plant|}}
+  {{admin-plant plants=model}}
+  {{/each}}
+</ul>
+
+<button class="btn btn-danger" {{action 'delete' plant}}>Delete</button>
