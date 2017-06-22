@@ -9,6 +9,10 @@ export default Ember.Route.extend({
       var newplant = this.store.createRecord('plant', params);
       newplant.save();
       this.transitionTo('admin1');
+    },
+    destroyPlant(plant){
+      plant.destroyPlant();
+      this.transitionTo('admin1');
     }
   }
 });
