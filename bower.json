@@ -1,0 +1,1 @@
+{"name":"agribiz","description":"Small description for agribiz goes here","main":"","authors":["lewis nyoike <nyoikelewis@gmail.com>"],"license":"MIT","homepage":"https://github.com/victortarus/agribiz","ignore":["**/.*","node_modules","bower_components","test","tests"],"dependencies":{"swiper":"~3.4.1"}}

@@ -1,1 +1,13 @@
+
 {{outlet}}
+<div class="container-fluid body">
+  {{search-form plantLookup="plantLookup"}}
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <h3>Trending This Season</h3>
+  </nav>
+  <ul>
+    {{#each model as |plant|}}
+      {{plant-tile plant=plant}}
+      {{/each}}
+  </ul>
+</div>

@@ -16,12 +16,20 @@ module.exports = function(environment) {
         Date: false
       }
     },
-    firebase: {
-    apiKey: "AIzaSyDmHtRT5i0ZSK01gO3PsDNW_4SBrdfiyTo",
-    authDomain: "agribiz-b7210.firebaseapp.com",
-    databaseURL: "https://agribiz-b7210.firebaseio.com",
-    storageBucket: "agribiz-b7210.appspot.com",
-  }
+    firebase : {
+    //   apiKey: "AIzaSyCbOIPjUhtRV9ejbpt2rRQ-GWvxvlPAhso",
+    // authDomain: "agribiz101-ad354.firebaseapp.com",
+    // databaseURL: "https://agribiz101-ad354.firebaseio.com",
+    // projectId: "agribiz101-ad354",
+    // storageBucket: "agribiz101-ad354.appspot.com",
+    // messagingSenderId: "100886671760"
+    apiKey: "AIzaSyAre7HIcKGGvYV0NWm7NdoDTx3FFJfSzNg",
+      authDomain: "agriculture-25528.firebaseapp.com",
+      databaseURL: "https://agriculture-25528.firebaseio.com",
+      projectId: "agriculture-25528",
+      storageBucket: "agriculture-25528.appspot.com",
+      messagingSenderId: "984174692585"
+  },
 
     APP: {
       // Here you can pass flags/options to your application instance

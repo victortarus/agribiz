@@ -1,0 +1,20 @@
+{{outlet}}
+
+{{#each model as |plant|}}
+<h1>{{plant.tfvname}}</h1>
+<div class="container info">
+  <img src="{{plant.imageurl}}" alt="" style="height:500px;" id="imageDetail">
+    <div class="in">
+      <h2>Description</h2>
+  {{plant.description}}
+  <h2>Uses</h2>
+  {{plant.uses}}
+  <h2>Soil Requirments</h2>
+  {{plant.soil}}
+  <h2>Climate</h2>
+  {{plant.climate}}
+
+  </div>
+</div>
+
+{{/each}}

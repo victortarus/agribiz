@@ -1,0 +1,46 @@
+{{#if addNewPlant}}
+  <h1>New Plant</h1>
+  <div class="col-md-6">
+    <form>
+      <div class="form-group">
+        <label for="alias">Alias/name</label> {{input value=alias id="alias" class="form-control"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">1st Image</label> {{input value=image id="image" class="form-control"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image2">2nd Image</label> {{input value=image2 id="image2" class="form-control"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image3">3rd Image</label> {{input value=image3 id="image3" class="form-control"}}
+      </div>
+
+      <div class="form-group">
+        <label for="soil">Soil</label> {{input value=soil id="soil" class="form-control"}}
+      </div>
+
+      <div class="form-group">
+        <label for="climate">Climate</label> {{input value=climate id="climate" class="form-control"}}
+      </div>
+
+      <div class="form-group">
+        <label for="fertilizers">Fertilizers</label> {{input value=fertilizers id="fertilizers" class="form-control"}}
+      </div>
+
+      <div class="form-group">
+        <label for="pests">Pests</label> {{input value=pests id="pests" class="form-control"}}
+      </div>
+
+      <div class="form-group">
+        <label for="markets">Markets</label> {{textarea value=markets id="markets" class="form-control"}}
+      </div>
+      <button class= "btn btn-success"{{action 'savePlant1' plant}}>Save</button>
+      <button class="btn btn-primary"{{action 'plantFormHide'}}>Hide</button>
+    </form>
+  </div>
+{{else}}
+  <button class= "btn btn-primary"{{action 'plantFormShow'}}>New Plant</button>
+{{/if}}
