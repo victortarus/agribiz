@@ -1,3 +1,9 @@
-<li>
-{{#link-to 'plant' plant.id}}{{plant.alias}} <br> <img src="{{plant.image}}" alt=""> {{/link-to}}
-</li>
+<div class="col-xs-18 col-sm-6 col-md-3">
+   <div class="thumbnail one">
+     <img src="{{plant.image}}" alt="" class="image1">
+       <div class="caption">
+         <h3>{{plant.alias}}</h3> <br>
+         {{link-to "See More" 'plant' plant.id class= "btn btn-info type"}}
+     </div>
+   </div>
+ </div>

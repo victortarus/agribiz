@@ -167,6 +167,13 @@ body {
     height: 250px;
     margin-top: 50px;
 }
+.one {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+    height: 400px;
+    margin-top: 50px;
+}
 .nav-tabs{
 
 }
@@ -177,4 +184,13 @@ position: sticky;
 .info{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+}
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
 }
